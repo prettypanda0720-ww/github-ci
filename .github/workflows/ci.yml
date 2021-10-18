@@ -1,6 +1,9 @@
-name: CI
+name: git-ci-cd
 
-on: [push]
+on: 
+  push:
+    branches:
+      -master
 
 jobs:
   build:
